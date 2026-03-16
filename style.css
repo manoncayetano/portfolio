@@ -23,8 +23,6 @@ button {
 
 .main-container {
   position: relative;
-  width: 1440px;
-  height: 7935px;
   margin: 0 auto;
   background: #f6f4ee;
   overflow: hidden;
