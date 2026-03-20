@@ -27,13 +27,12 @@ button {
   background: #f6f4ee;
   overflow: hidden;
 }
-.frame {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
   position: relative;
-  width: 1438px;
   margin: 0 0 0 1px;
   padding: 12px 80px 12px 80px;
   background: rgba(246, 244, 238, 0.01);
