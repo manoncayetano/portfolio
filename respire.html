@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respire – Projet</title>
+    <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+   <!-- ===== NAVBAR ===== -->
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <div class="navbar__logo"></div>
+          <div class="navbar__name"></div>
+        </div>
+        <ul class="navbar__menu">
+          <li class="nav-item">
+            <a href="#apropos" class="nav-item__label">A propos</a>
+            <div class="nav-item__underline"></div>
+          </li>
+          <li class="nav-item">
+            <a href="#experiences" class="nav-item__label">Expériences</a>
+            <div class="nav-item__underline"></div>
+          </li>
+          <li class="nav-item">
+            <a href="#etudes" class="nav-item__label">Études</a>
+            <div class="nav-item__underline"></div>
+          </li>
+          <li class="nav-item">
+            <a href="#projets" class="nav-item__label">Projets</a>
+            <div class="nav-item__underline"></div>
+          </li>
+        </ul>
+      </nav>
+
+
+  <!-- HERO PROJET -->
+  <section class="section__inner project-hero">
+    <div class="project-hero__content">
+      <div class="return">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M11.2957 4.45407C11.4006 4.55858 11.4838 4.68277 11.5406 4.81952C11.5974 4.95626 11.6266 5.10287 11.6266 5.25094C11.6266 5.39901 11.5974 5.54561 11.5406 5.68236C11.4838 5.81911 11.4006 5.9433 11.2957 6.04782L6.46854 10.875L20.2498 10.875C20.5482 10.875 20.8343 10.9935 21.0453 11.2045C21.2563 11.4155 21.3748 11.7016 21.3748 12C21.3748 12.2984 21.2563 12.5845 21.0453 12.7955C20.8343 13.0065 20.5482 13.125 20.2498 13.125L6.46854 13.125L11.2957 17.9541C11.5071 18.1654 11.6258 18.4521 11.6258 18.7509C11.6258 19.0498 11.5071 19.3365 11.2957 19.5478C11.0844 19.7592 10.7977 19.8779 10.4989 19.8779C10.2 19.8779 9.91333 19.7592 9.70198 19.5478L2.95198 12.7978C2.8471 12.6933 2.76388 12.5691 2.7071 12.4324C2.65032 12.2956 2.62109 12.149 2.62109 12.0009C2.62109 11.8529 2.65032 11.7063 2.7071 11.5695C2.76388 11.4328 2.8471 11.3086 2.95198 11.2041L9.70198 4.45407C9.8065 4.34919 9.93069 4.26597 10.0674 4.20919C10.2042 4.15241 10.3508 4.12318 10.4989 4.12318C10.6469 4.12318 10.7935 4.15241 10.9303 4.20919C11.067 4.26597 11.1912 4.34919 11.2957 4.45407Z" fill="#38332E"/>
+</svg>
+      <a href="index.html" class="project-hero__meta">Retourner sur la page d’accueil</a>
+      </div>
+      <h1>Respire</h1>
+      <p class="project-hero__desc">
+        Application mobile de respiration pour aider à gérer le stress et améliorer le bien-être.
+      </p>
+       <div class="domain-card__tags">
+                <span class="tag tag--about-dev">Application mobile</span>
+                <span class="tag tag--about-dev">Burn-out</span>
+                <span class="tag tag--about-dev">Présentation</span>
+                <span class="tag tag--about-dev">UX Research</span>
+              </div>
+
+      <img src="./media/respire-mockup.png" alt="hero image">
+
+      <div class="domains-grid">
+
+            <div class="domain-card">
+              <div class="domain-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <h3 class="domain-card__title">Rôle</h3>
+              <p class="domain-card__desc">UX Research</p>
+            </div>
+
+            <div class="domain-card">
+              <div class="domain-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-dark-yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="10" r="3"/>
+                  <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+                </svg>
+              </div>
+              <h3 class="domain-card__title">Année</h3>
+              <p class="domain-card__desc">2025</p>
+            </div>
+
+            <div class="domain-card">
+              <div class="domain-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-dark-yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="10" r="3"/>
+                  <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+                </svg>
+              </div>
+              <h3 class="domain-card__title">Outils</h3>
+              <p class="domain-card__desc">Illustrator, Photoshop, Figma</p>
+            </div>
+
+            <div class="domain-card">
+              <div class="domain-card__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-dark-yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="10" r="3"/>
+                  <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+                </svg>
+              </div>
+              <h3 class="domain-card__title">Lien maquette</h3>
+              <p class="domain-card__desc"><a href="">Lien</a></p>
+            </div>
+
+          </div>
+    </div>
+  </section>
+
+  <!-- EN UNE MINUTE -->
+  <section class="section__inner">
+     <div class="showcase">
+ 
+  <!-- ── Téléphone ── -->
+  <div class="phone-wrap">
+    <img src="./media/respire-1minute.png" alt="">
+  </div>
+ 
+  <!-- ── Liste des fonctionnalités ── -->
+  <div class="features-card">
+    <p class="features-card__intro">Voici ce que le prototype démontre :</p>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+        <div class="feature-line"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Évaluation rapide du niveau de stress</span>
+        <span class="feature-desc">Mini-questionnaire court pour prendre conscience de son état mental.</span>
+      </div>
+    </div>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+        <div class="feature-line"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Accès immédiat aux exercices</span>
+        <span class="feature-desc">Respiration guidée, méditation, sons apaisants, accessibles en moins de 3 secondes.</span>
+      </div>
+    </div>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+        <div class="feature-line"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Feedback post-exercice</span>
+        <span class="feature-desc">Retour personnalisé pour encourager la continuité sans culpabiliser.</span>
+      </div>
+    </div>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+        <div class="feature-line"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Historique &amp; suivi simplifié</span>
+        <span class="feature-desc">Visualisation claire de l'évolution de l'état mental.</span>
+      </div>
+    </div>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+        <div class="feature-line"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Parcours d'accompagnement</span>
+        <span class="feature-desc">Accès au chat professionnel et prise de rendez-vous.</span>
+      </div>
+    </div>
+ 
+    <div class="feature-item">
+      <div class="feature-item__left">
+        <div class="feature-dot"></div>
+      </div>
+      <div class="feature-item__body">
+        <span class="feature-title">Personnalisation douce</span>
+        <span class="feature-desc">Contenu et recommandations adaptés aux réponses utilisateur.</span>
+      </div>
+    </div>
+ 
+  </div>
+ 
+</div>
+  </section>
+
+   <!-- CONTEXTE -->
+  <section class="section">
+    <div class="section__inner">
+
+        <div class="section__header section__title-wrapper">
+            <h2 class="section__title">Contexte</h2>
+            <div class="section__title-bar"></div>
+        </div>
+        <div class="card">Dans un environnement professionnel de plus en plus exigeant, de nombreux salariés se retrouvent au bord du burn-out sans toujours en avoir pleinement conscience.
+            <br><br>Nous avons voulu concevoir une application capable d’accompagner ces profils dans les moments critiques, en leur proposant un soutien accessible, simple et non culpabilisant. L’objectif était de créer une expérience fluide favorisant la prise de conscience du bien-être mental tout en limitant la charge cognitive.</div>
+         <div class="groupe-pb">
+            <div class="contexte">
+                <div class="card">
+                    <h2>Problématique</h2>
+                    <p><br>Les personnes en situation d’épuisement manquent de temps, d’énergie et de clarté mentale. Elles prennent souvent conscience trop tard de leur état et abandonnent au moindre effort supplémentaire. 
+                    <br>Comment concevoir une application pour quelqu’un qui n’a plus la capacité de réfléchir longtemps, comparer des options ou suivre un parcours complexe ?</p>
+                </div>
+                <div class="card">
+                    <h2>Solution</h2>
+                    <p><br>Nous avons conçu RESPIRE autour de trois piliers : simplicité, accessibilité et accompagnement progressif.  
+                    <br><br>Un mini-questionnaire rapide permet d’évaluer son niveau de stress, des exercices guidés sont accessibles en quelques secondes, et un feedback immédiat encourage l’engagement sans culpabiliser. 
+                </div>
+            </div>
+            <div class="phone-wrap">
+            <img src="./media/respire-contexte.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+  </section>
+
+
+
+
+  <!-- RECHERCHE -->
+  <section class="section">
+    <div class="section__inner">
+
+      <div class="section__header section__title-wrapper">
+        <h2 class="section__title">Recherche & Persona</h2>
+        <div class="section__title-bar"></div>
+      </div>
+
+      <img src="./media/repsire-user.png" alt="persona">
+
+    </div>
+  </section>
+
+  <!-- USERFLOW -->
+  <section class="section">
+    <div class="section__inner">
+
+      <div class="section__header section__title-wrapper">
+        <h2 class="section__title">Userflows</h2>
+        <div class="section__title-bar"></div>
+      </div>
+
+      <img src="./media/userflow1.png" alt="flow">
+      <img src="./media/userflow2.png" alt="flow">
+
+      
+    </div>
+  </section>
+
+  <!-- STRATEGIE -->
+  <section class="section">
+    <div class="section__inner">
+
+      <div class="section__header section__title-wrapper">
+        <h2 class="section__title">Stratégie UX</h2>
+        <div class="section__title-bar"></div>
+      </div>
+
+      <img src="./media/respire-mockup2.png" alt="strategie">
+
+      <div class="cards-3">
+        <div class="card">
+            <h2>Loi de Hick</h2>
+            <p><br> La loi de Hick démontre que plus le nombre d’options est élevé, plus le temps de décision augmente. 
+                <br> <br> Dans le cas d’un utilisateur en burn out, cette surcharge peut provoquer un abandon immédiat.
+                <br> <br> Nous avons donc volontairement limité le nombre d’actions visibles à l’écran.
+                <br> <br> Chaque interface propose une action principale claire, sans multiplier les alternatives.
+                <br> <br> L’objectif était de simplifier le parcours pour que l’utilisateur n’ait pas à “réfléchir”, mais simplement à agir.
+</div>
+        <div class="card">
+            <h2>Loi de Fitts</h2>
+            <p><br>La loi de Fitts explique que plus une cible est grande et proche, plus elle est facile à atteindre.
+
+            <br><br>Nous avons appliqué ce principe en concevant :
+            <li>Des boutons larges</li>
+            <li>Des zones interactives bien espacées</li>
+            <li>Une hiérarchie claire des actions</li>
+
+            <br><br>Dans un état de fatigue mentale, même un petit effort moteur peut devenir frustrant.
+       @    <br><br>Nous avons donc cherché à rendre chaque interaction naturelle et fluide.    
+        </div>
+        <div class="card">
+            <h2>Loi de Jackob</h2>
+            <p><br>Selon la loi de Jakob, les utilisateurs préfèrent des interfaces qui fonctionnent comme celles qu’ils connaissent déjà.
+
+                <br><br>Nous avons donc évité toute innovation dans la navigation. RESPIRE reprend des schémas familiers :
+                <li>Navigation simple</li>
+                <li>Icônes compréhensibles</li>     
+                <li>Structure cohérente</li>
+
+                <br><br>L’idée était de ne jamais obliger l’utilisateur à apprendre un nouveau fonctionnement.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MOODBOARD -->
+  <section class="section">
+    <div class="section__inner">
+
+      <div class="section__header section__title-wrapper">
+        <h2 class="section__title">Moodboard</h2>
+        <div class="section__title-bar"></div>
+      </div>
+
+      <img src="./media/respire-moodboard.png" alt="moodboard">
+
+    </div>
+  </section>
+
+  <!-- UI -->
+  <section class="section">
+    <div class="section__inner">
+
+      <img src="./media/respire-mockup3.png" alt="ui">
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__inner">
+        <div class="section__header section__title-wrapper">
+        <h2 class="section__title">Diaporama du projet</h2>
+        <div class="section__title-bar"></div>
+      </div>
+
+      <iframe src = "./media/Respire.pdf" width="100%" height=700></iframe>
+
+    </div>
+  </section>
+
+
+
+        <div class="section__inner">
+          <div class="section__header section__title-wrapper">
+              <h2 class="section__title">Mes autres projets</h2>
+          </div>
+          <div class="projects-grid2">
+
+            <a href="respire.html" class="project-card">
+              <div class="project-card__thumbnail">
+                <img src="./media/notricks.png" alt="">
+              </div>
+              <div class="project-card__info">
+                <div class="project-card__meta">
+                  <span class="tag">PFE MASTER</span>
+                  <span class="tag tag--status">En cours</span>
+                </div>
+                <h3 class="project-card__name">NO.TRICKS</h3>
+              </div>
+            </a>
+
+            <div class="project-card">
+              <div class="project-card__thumbnail">
+                 <img src="./media/torsch.png" alt="">
+              </div>
+              <div class="project-card__info">
+                <div class="project-card__meta">
+                  <span class="tag">DESIGN</span>
+                  <span class="tag">2025</span>
+                </div>
+                <h3 class="project-card__name">TORSCH</h3>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-card__thumbnail">
+                <img src="./media/flowy.png" alt="">
+              </div>
+              <div class="project-card__info">
+                <div class="project-card__meta">
+                  <span class="tag">LOW DEFINITION</span>
+                  <span class="tag">2025</span>
+                </div>
+                <h3 class="project-card__name">Flowly</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+   <!-- ===== CTA ===== -->
+      <section class="cta">
+        <div class="cta__card">
+          <div class="vector-12"></div>
+          <div class="cta__text">
+            <h2 class="cta__title">Convaincu ?</h2>
+            <p class="cta__subtitle">Envie d'échanger, de collaborer ou juste de discuter design ? Je suis toujours partante pour un nouveau projet !</p>
+          </div>
+          <div class="cta__actions">
+            <button class="btn btn--white">Contacter</button>
+            <button class="btn btn--outline-white">Télécharger le CV</button>
+          </div>
+        </div>
+      </section>
+       <div class="group-106"></div>
+
+      <!-- ===== FOOTER ===== -->
+      <footer class="footer">
+        <div class="footer__brand">
+          <div class="footer__logo"></div>
+          <div class="footer__name"></div>
+        </div>
+        <span class="footer__copyright">© 2026 — Développeuse &amp; Designer</span>
+      </footer>
+
+</div>
+
+</body>
+</html>
