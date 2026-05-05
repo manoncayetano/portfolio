@@ -46,6 +46,10 @@ button {
   font-family: inherit;
 }
 
+img {
+    width: 100%;
+}
+
 /* ============================================================
    PAGE WRAPPER
    ============================================================ */
@@ -366,7 +370,7 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 1;
-  bottom: -140px;
+  bottom: -156px;
   border-radius: 16px;
 }
 
@@ -734,6 +738,14 @@ button {
   overflow: hidden;
 }
 
+.bold {
+  font-family: system-ui;
+  font-weight: 900;
+}
+
+.txt-center {
+  text-align: center;
+}
 
 
 .cta__card {
@@ -1440,3 +1452,46 @@ button {
       }
       .phone-wrap { order: -1; }
     }
+/* ===== MEDIA HOVER VIDEO ===== */
+
+.media-card {
+  position: relative;
+  aspect-ratio: 16 / 9; /* ou 4/3 selon ton design */
+  width: 100%;
+  /* important → s’adapte à ton layout existant */
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+/* image + vidéo prennent EXACTEMENT la même place */
+.media-img,
+.media-video {
+  position: absolute;
+  inset: 0; /* remplace top/left/width/height */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* image visible */
+.media-img {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+}
+
+/* vidéo cachée */
+.media-video {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+/* hover */
+.media-card:hover .media-img {
+  opacity: 0;
+}
+
+.media-card:hover .media-video {
+  opacity: 1;
+}
